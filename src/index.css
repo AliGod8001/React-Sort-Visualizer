@@ -1,0 +1,98 @@
+:root {
+  --transition: all 450ms ease;
+  --main-radius: 2pc;
+  --button-radius: 0.6pc;
+}
+
+body.light {
+  --background-color: #f5f5f5;
+  --wrapper-background: #ffffff;
+  --bars-background: #f9f9f9;
+
+  --primary-color: #A9F8FB;
+  --primary-light-color: #b5f9fb;
+  --primary-dark-color: #6cf3f8;
+  --primary-subtle-color: #dafeff;
+
+  --secondary-color: #068488;
+  --secondary-light-color: #08b7bc;
+  --secondary-dark-color: #057073;
+  --secondary-subtle-color: #d3feff;
+
+  --key-color: #747070;
+  --type-text-color: #242424;
+  --next-type-text-color: #242424;
+
+  --key-border-color: #dadada;
+  --box-shadow-color: #00000050;
+
+  --title-color: #545050;
+  --sub-title-color: #646060;
+
+  --text-color: #646060;
+  --sub-text-color: #747070;
+
+  --wood-color: #242424;
+
+  --loser-color: #ff001c;
+  --winner-color: #00e716;
+
+  --scorllbar-thumb-color: #b6b6b6;
+}
+  
+body.dark {
+  --background-color: #242424;
+  --wrapper-background: #343434;
+  --bars-background: #444444;
+
+  --primary-color: #A9F8FB;
+  --primary-light-color: #b5f9fb;
+  --primary-dark-color: #6cf3f8;
+  --primary-subtle-color: #dafeff;
+
+  --secondary-color: #068488;
+  --secondary-light-color: #08b7bc;
+  --secondary-dark-color: #057073;
+  --secondary-subtle-color: #d3feff;
+  
+  --key-color: #ffffff;
+  --type-text-color: #ffffff;
+  --next-type-text-color: #242424;
+
+  --key-border-color: #555555;
+  --box-shadow-color: #ffffff50;
+
+  --title-color: #ffffff;
+  --sub-title-color: #d4d4d4;
+
+  --text-color: #bfbfbf;
+  --sub-text-color: #9c9c9c;
+
+  --wood-color: #ffffff;
+
+  --loser-color: #ff001c;
+  --winner-color: #00e716;
+  
+  --scorllbar-thumb-color: #444444;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px 0 0 0;
+  margin: 0;
+  font-weight: normal;
+  background-color: var(--background-color);
+}
+
+body::-webkit-scrollbar {
+  width: 6.5px;
+  height: 2.5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scorllbar-thumb-color);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
+}

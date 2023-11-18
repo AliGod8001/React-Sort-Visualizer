@@ -1,0 +1,23 @@
+.list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.list span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.select {
+    color: var(--title-color);
+}
+
+.select span {
+    background-color: var(--secondary-color) !important;
+}

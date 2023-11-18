@@ -1,0 +1,31 @@
+.item {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 13px;
+    max-width: 40px;
+    height: 200px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: var(--secondary-color);
+    background-color: var(--bars-background);
+    border-radius: 2pc;
+    box-shadow: 6px 3px 8px -9px var(--box-shadow-color);
+    overflow: hidden;
+}
+
+.item span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.item div {
+    position: relative;
+    z-index: 1;
+}

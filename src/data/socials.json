@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "instagram",
+        "social_id": "@Ali_God8001",
+        "image": "images/socials/instagram.png",
+        "url": "https://instagram.com/Ali_God8001"
+    },
+    {
+        "id": 2,
+        "name": "telegram",
+        "social_id": "@Ali_God8001",
+        "image": "images/socials/telegram.png",
+        "url": "https://t.me/ali_god8001"
+    },
+    {
+        "id": 3,
+        "name": "github",
+        "social_id": "AliGod8001",
+        "image": "images/socials/github.png",
+        "url": "http://github.com/aligod8001"
+    },
+    {
+        "id": 4,
+        "name": "gmail",
+        "social_id": "aligod8001",
+        "image": "images/socials/gmail.png",
+        "url": "mailto:aligod8001@gmail.com"
+    }
+]

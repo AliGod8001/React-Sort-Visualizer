@@ -1,0 +1,14 @@
+[
+    {
+         "value": "insertion", 
+         "label": "Insertion Sort" 
+    },
+    {
+         "value": "bubble", 
+         "label": "Bubble Sort" 
+    },
+    {
+         "value": "quick", 
+         "label": "Quick Sort" 
+    }
+]

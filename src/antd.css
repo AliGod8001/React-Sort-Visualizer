@@ -1,0 +1,40 @@
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select .ant-select-arrow,
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-single .ant-select-selector {
+    color: var(--title-color);
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-single.ant-select-open .ant-select-selection-item,
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-dropdown .ant-select-item {
+    color: var(--text-color);
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    outline: none !important;
+    background-color: var(--bars-background);
+    border-color: var(--wrapper-background) !important;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-dropdown {
+    background-color: var(--wrapper-background);
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-select-dropdown .ant-select-item-option-disabled {
+    opacity: 0.3;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-step {
+    background-color: var(--bars-background);
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-handle:hover::after, :where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-handle:active::after, :where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-handle:focus::after {
+    box-shadow: 0 0 0 4px var(--primary-color);
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-handle {
+    z-index: 3;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-slider .ant-slider-track {
+    background-color: var(--primary-color);
+    z-index: 2;
+}
