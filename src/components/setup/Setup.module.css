@@ -4,3 +4,8 @@
 	justify-content: center;
 	gap: 25px;
 }
+
+.wrapper span {
+	margin-right: 10px;
+	font-size: 12px;
+}

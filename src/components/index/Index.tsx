@@ -30,6 +30,7 @@ const Index = () => {
   const [length, setLength] = useState<number>(Settings.ARRAY_LENGTH)
   const [range, setRange] = useState<number>(Settings.ARRAY_RANGE)
   const [speed, setSpeed] = useState<number>(Settings.SPEED)
+  const [descending, setDescending] = useState<boolean>(Settings.DESCENDING)  
 
   const changeSetupHandler = (action: string, value: string) => {
     if ( action === "length" ) {
@@ -43,6 +44,8 @@ const Index = () => {
 
     } else if ( action === "speed" ) {
       setSpeed(value > "4" ? 4 : Number(value))
+    } else if ( action === "descending") {
+      setDescending(value === "active" ? true : false);
     } else {
       setAlgorithm(value)
       setStepsState(prevState => {
@@ -50,6 +53,8 @@ const Index = () => {
       })
     }
   }
+
+  console.log(descending)
 
   const actionClickHandler = (action: string) => {
     if ( action === 'start' ) {
@@ -96,6 +101,7 @@ const Index = () => {
           speed,
           range,
           length,
+          descending,
           disabled: visualizing
         }}/>
       {

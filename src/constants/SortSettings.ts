@@ -3,5 +3,6 @@ export const Settings = {
     ARRAY_RANGE: 150,
     DEFAULT_SPEED: 100,
     SPEED: 0.2,
+    DESCENDING: false,
     ALGORITHM: 'bubble'
 }

@@ -4,6 +4,7 @@ interface SetupData {
     defaultSpeed: number,
     range: number,
     length: number,
+    descending: boolean,
     disabled: boolean
 }
 
