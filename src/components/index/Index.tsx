@@ -16,7 +16,6 @@ import BarsList from "../bars/BarsList"
 
 /* constant imports */
 import { Settings } from "../../constants/SortSettings"
-import { Steps } from "antd"
 
 const Index = () => {
   const [stepState, setStepsState] = useState<stepData>({
