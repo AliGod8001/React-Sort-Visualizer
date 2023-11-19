@@ -48,7 +48,6 @@ const Index = () => {
       setStepsState((prevState) => {
         return {
           ...prevState,
-          array: randomArray(length, range),
           sortedArray: [],
           steps: [],
           colors: [],
