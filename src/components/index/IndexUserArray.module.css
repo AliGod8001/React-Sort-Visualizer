@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper div {
+  color: var(--title-color);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.wrapper div span {
+  margin-left: 15px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wrapper textarea {
+  border: none;
+  outline: none;
+  background-color: var(--background-color);
+  display: block;
+  width: calc(100% - 30px) !important;
+  padding: 15px;
+  border-radius: 15px;
+  resize: none;
+}
+
+.error {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: red;
+  color: white
+}
