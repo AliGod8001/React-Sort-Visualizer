@@ -71,7 +71,7 @@ const Index = () => {
           alg = BubbleSortAlgorithm
           break;
       }
-      const { arr, sortSteps, sortColors } = alg(stepState.array)
+      const { arr, sortSteps, sortColors } = alg(stepState.array, descending)
       setVisualizing(true)
       setStepsState(prevState => {
         return {...prevState, sortedArray: arr, steps: sortSteps, colors: sortColors}
