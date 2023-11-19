@@ -54,8 +54,6 @@ const Index = () => {
     }
   }
 
-  console.log(descending)
-
   const actionClickHandler = (action: string) => {
     if ( action === 'start' ) {
 
